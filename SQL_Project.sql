@@ -1,0 +1,5 @@
+--SELECT * FROM PelicanStore;
+--SELECT sum(sales) FROM PelicanStore;
+--SELECT avg(sales) FROM PelicanStore;
+--SELECT sum(sales) FROM PelicanStore WHERE gender = 'Male';
+--SELECT method_of_payment, gender,sales FROM PelicanStore ORDER BY CAST(sales AS float) DESC LIMIT 5;
